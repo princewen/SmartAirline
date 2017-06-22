@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*- ​​​​
 import pandas as pd
 import datetime
 import numpy as np
@@ -95,9 +97,10 @@ def process_t2():
     df.to_csv('../data/t2_new.csv',encoding='gbk')
 
 
+
 def main():
     process_t2()
-    #get_time_range()
+    get_time_range()
     merge_time()
 
 
